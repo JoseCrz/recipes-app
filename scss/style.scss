@@ -9,6 +9,10 @@ body {
     padding: 0;
 }
 
+// * UTILITIES
+@import './utils/wrapper';
+
+// * COMPONENTS
 @import './components/app';
 @import './components/header';
 @import './components/results';
