@@ -1,0 +1,11 @@
+.c-app {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px repeat(5, 1fr);
+    grid-template-areas: "header header header"
+                         "results recipe shopping"
+                         "results recipe shopping"
+                         "results recipe shopping"
+                         "results recipe shopping"
+                         "results recipe shopping";
+}

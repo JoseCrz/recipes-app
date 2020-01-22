@@ -1,4 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     // background: linear-gradient(to top right, #F7971E, #FFD200);
     background: linear-gradient(to top right, #F37335, #FDC830);
+    margin: 0;
+    padding: 0;
 }
+
+@import './components/app';
+@import './components/header';
+@import './components/results';
+@import './components/recipe';
+@import './components/shopping';

@@ -1,8 +1,13 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,AAAC,CAED,UAAU,CAAE,+CAA+C,CAC9D",
+    "mappings": "AAAA,AAAA,CAAC,AAAC,CACE,UAAU,CAAE,UAAU,CACzB,AAED,AAAA,IAAI,AAAC,CAED,UAAU,CAAE,+CAA+C,CAC3D,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACb,ACTD,AAAA,MAAM,AAAC,CACH,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,WAAW,CAClC,kBAAkB,CAAE,KAAK,CAAC,cAAc,CACxC,mBAAmB,CAAE,wJAKyB,CACjD,ACVD,AAAA,SAAS,AAAC,CACN,SAAS,CAAE,MAAM,CACpB,ACFD,AAAA,UAAU,AAAC,CACP,SAAS,CAAE,OAAO,CACrB,ACFD,AAAA,SAAS,AAAC,CACN,SAAS,CAAE,MAAM,CACpB,ACFD,AAAA,WAAW,AAAC,CACR,SAAS,CAAE,QAAQ,CACtB",
     "sources": [
-        "../scss/style.scss"
+        "../scss/style.scss",
+        "../scss/components/_app.scss",
+        "../scss/components/_header.scss",
+        "../scss/components/_results.scss",
+        "../scss/components/_recipe.scss",
+        "../scss/components/_shopping.scss"
     ],
     "names": [],
     "file": "style.min.css"
