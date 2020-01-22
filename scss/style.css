@@ -243,6 +243,12 @@ textarea {
   content: "\ea10";
 }
 
+.u-divider--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .c-app {
   display: -ms-grid;
   display: grid;
@@ -314,6 +320,15 @@ textarea {
 
 .c-recipe__cover {
   width: 100%;
+}
+
+.c-recipe__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .c-shopping {
