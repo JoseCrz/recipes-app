@@ -334,5 +334,27 @@ textarea {
   font-size: 1.2em;
   padding: 6px 24px;
   font-weight: 500;
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+  outline: none;
+}
+
+.c-button:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.c-button--round {
+  padding: 10px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

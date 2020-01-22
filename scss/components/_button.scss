@@ -7,4 +7,19 @@
     font-size: 1.2em;
     padding: 6px 24px;
     font-weight: 500;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+    outline: none;
+    
+    &:hover {
+        transform: translateY(-3px);
+    }
+    &--round {
+        padding: 10px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
