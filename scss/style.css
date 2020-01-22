@@ -8,7 +8,7 @@ body {
   background: -webkit-gradient(linear, left bottom, right top, from(#F37335), to(#FDC830));
   background: linear-gradient(to top right, #F37335, #FDC830);
   margin: 0;
-  padding: 0;
+  padding: 0 15px;
 }
 
 section {
@@ -193,7 +193,7 @@ textarea {
 }
 
 .u-wrapper {
-  max-width: 1024px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -306,6 +306,10 @@ textarea {
   -ms-grid-column: 2;
   grid-area: recipe;
   background: #eeeeee;
+}
+
+.c-recipe__cover {
+  width: 100%;
 }
 
 .c-shopping {
