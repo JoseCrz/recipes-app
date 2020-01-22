@@ -201,6 +201,9 @@ textarea {
   -ms-grid-rows: 100px (1fr)[5];
       grid-template-rows: 100px repeat(5, 1fr);
       grid-template-areas: "header header header" "results recipe shopping" "results recipe shopping" "results recipe shopping" "results recipe shopping" "results recipe shopping";
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 50px 0;
 }
 
 .c-header {
@@ -209,6 +212,26 @@ textarea {
   -ms-grid-column-span: 3;
   grid-area: header;
   background: #eeeeee;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-header__logo {
+  width: 50px;
+}
+
+.c-header__search-bar {
+  width: 320px;
+  padding: 12px;
+  border-radius: 50px;
+  border-style: none;
+  outline: none;
 }
 
 .c-results {
