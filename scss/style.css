@@ -208,6 +208,7 @@ textarea {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: header;
+  background: #eeeeee;
 }
 
 .c-results {
@@ -215,6 +216,7 @@ textarea {
   -ms-grid-row-span: 5;
   -ms-grid-column: 1;
   grid-area: results;
+  background: #fafafa;
 }
 
 .c-recipe {
@@ -222,6 +224,7 @@ textarea {
   -ms-grid-row-span: 5;
   -ms-grid-column: 2;
   grid-area: recipe;
+  background: #eeeeee;
 }
 
 .c-shopping {
@@ -229,5 +232,6 @@ textarea {
   -ms-grid-row-span: 5;
   -ms-grid-column: 3;
   grid-area: shopping;
+  background: #fafafa;
 }
 /*# sourceMappingURL=style.css.map */
