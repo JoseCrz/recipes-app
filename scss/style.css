@@ -389,4 +389,38 @@ textarea {
 .c-item__text {
   margin: 0 5px;
 }
+
+.c-hit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.c-hit:hover {
+  background: #eeeeee;
+}
+
+.c-hit__image {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin: 0 15px;
+}
+
+.c-hit__title {
+  font-size: 1.3em;
+  margin: 0;
+  color: #F37335;
+}
+
+.c-hit__source {
+  margin: 5px 0;
+}
 /*# sourceMappingURL=style.css.map */
