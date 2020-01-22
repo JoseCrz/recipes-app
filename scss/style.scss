@@ -1,6 +1,8 @@
 // * VARIABLES
 $color__grey: #eeeeee;
 $color__light-grey: #fafafa;
+$color__primary: #F37335;
+$color__secondary: #FDC830;
 
 * {
     box-sizing: border-box;
@@ -14,9 +16,14 @@ body {
     padding: 0;
 }
 
+section {
+    padding: 10px;
+}
+
 // * UTILITIES
 @import './utils/reset';
 @import './utils/wrapper';
+@import './utils/icons';
 
 // * COMPONENTS
 @import './components/app';

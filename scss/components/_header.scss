@@ -7,7 +7,7 @@
     align-items: center;
 
     &__logo {
-        width: 50px;
+        width: 80px;
     }
 
     &__search-bar {
@@ -16,5 +16,16 @@
         border-radius: 50px;
         border-style: none;
         outline: none;
+    }
+
+    &__favs {
+        font-size: 2em;
+        color: $color__primary;
+        transition: cubic-bezier(0.215, 0.610, 0.355, 1) .2s;
+        cursor: pointer;
+
+        &:hover {
+            color: $color__secondary;
+        }
     }
 }
