@@ -1,0 +1,12 @@
+.c-item {
+    display: flex;
+    align-items: center;
+
+    &__icon {
+        color: $color__primary;
+    }
+
+    &__text {
+        margin: 0 5px;
+    }
+}
