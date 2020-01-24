@@ -327,6 +327,13 @@ textarea {
           justify-content: space-between;
 }
 
+.c-recipe__ingridients-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
 .c-shopping {
   -ms-grid-row: 2;
   -ms-grid-row-span: 5;
