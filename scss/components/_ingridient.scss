@@ -1,0 +1,26 @@
+.c-ingridient {
+    display: grid;
+    justify-items: center;
+    align-items: start;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 50px;
+    border-bottom: 1px solid darken($color__light-grey, 10%);
+    padding: 15px 0;
+
+    &__input {
+        width: 100%;
+        border: 1px solid darken($color__light-grey, 10%);
+        outline: none;
+        padding: 5px;
+        border-radius: 3px;
+    }
+
+    &__description {
+        margin: 0;
+        justify-self: left;
+    }
+
+    &__cancel {
+        align-self: center;
+    }
+}

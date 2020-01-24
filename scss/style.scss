@@ -17,10 +17,6 @@ body {
     padding: 0 15px;
 }
 
-section {
-    // padding: 10px;
-}
-
 // * UTILITIES
 @import './utils/reset';
 @import './utils/wrapper';
@@ -37,3 +33,4 @@ section {
 @import './components/button';
 @import './components/item';
 @import './components/hit';
+@import './components/ingridient';

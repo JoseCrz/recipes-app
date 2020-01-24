@@ -447,4 +447,38 @@ textarea {
 .c-hit__source {
   margin: 5px 0;
 }
+
+.c-ingridient {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 10px;
+  -ms-grid-columns: 1fr 1fr 50px;
+      grid-template-columns: 1fr 1fr 50px;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 15px 0;
+}
+
+.c-ingridient__input {
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  outline: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.c-ingridient__description {
+  margin: 0;
+  -ms-grid-column-align: left;
+      justify-self: left;
+}
+
+.c-ingridient__cancel {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
 /*# sourceMappingURL=style.css.map */
