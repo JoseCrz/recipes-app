@@ -280,6 +280,8 @@ textarea {
   border-radius: 3px;
   overflow: hidden;
   margin: 50px 0;
+  -webkit-box-shadow: 0px 10px 50px rgba(101, 90, 86, 0.2);
+          box-shadow: 0px 10px 50px rgba(101, 90, 86, 0.2);
 }
 
 .c-header {

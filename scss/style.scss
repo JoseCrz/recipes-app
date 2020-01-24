@@ -5,6 +5,7 @@ $color__primary: #F37335;
 $color__secondary: #FDC830;
 $gradient: linear-gradient(to top right, $color__primary, $color__secondary);
 $padding__section: 0 10px;
+$shadow: 0px 10px 50px rgba(101, 90, 86, 0.2);
 
 * {
     box-sizing: border-box;
