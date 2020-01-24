@@ -6,6 +6,10 @@
         width: 100%;
     }
 
+    &__info, &__ingridients, &__how-to {
+        padding: 0 50px;
+    }
+
     &__info {
         display: flex;
         justify-content: space-between;

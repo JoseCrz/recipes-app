@@ -335,6 +335,10 @@ textarea {
   width: 100%;
 }
 
+.c-recipe__info, .c-recipe__ingridients, .c-recipe__how-to {
+  padding: 0 50px;
+}
+
 .c-recipe__info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -357,6 +361,7 @@ textarea {
   -ms-grid-column: 3;
   grid-area: shopping;
   background: #fafafa;
+  padding: 0 10px;
 }
 
 .c-button {
