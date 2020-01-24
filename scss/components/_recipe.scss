@@ -12,10 +12,12 @@
         text-align: center;
         font-size: 2.5em;
         color: white;
+        transform: rotate(-10deg);
     }
-    
+
     &__cover {
         width: 100%;
+        margin-bottom: 50px;
     }
 
     &__info, &__ingridients, &__how-to {
@@ -23,6 +25,7 @@
     }
 
     &__info {
+        margin: 30px 0;
         display: flex;
         justify-content: space-between;
     }
