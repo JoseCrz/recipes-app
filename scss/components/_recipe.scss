@@ -1,7 +1,19 @@
 .c-recipe {
     grid-area: recipe;
     background: $color__grey;
+    &__top {
+        position: relative;
+    }
 
+    &__title {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 2.5em;
+        color: white;
+    }
+    
     &__cover {
         width: 100%;
     }
@@ -18,5 +30,16 @@
     &__ingridients-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 30px 0;
+    }
+    &__how-to {
+        text-align: center;
+        &-title {
+            font-size: 1.5em;
+            text-transform: uppercase;
+            color: $color__primary;
+            transform: rotate(-4deg);
+            margin: 40px 0;
+        }
     }
 }

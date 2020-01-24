@@ -331,6 +331,19 @@ textarea {
   background: #eeeeee;
 }
 
+.c-recipe__top {
+  position: relative;
+}
+
+.c-recipe__title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  color: white;
+}
+
 .c-recipe__cover {
   width: 100%;
 }
@@ -353,6 +366,20 @@ textarea {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+  gap: 30px 0;
+}
+
+.c-recipe__how-to {
+  text-align: center;
+}
+
+.c-recipe__how-to-title {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #F37335;
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
+  margin: 40px 0;
 }
 
 .c-shopping {
@@ -409,6 +436,12 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.c-item--top {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .c-item__icon {
