@@ -195,8 +195,8 @@ textarea {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?kcox9g");
-  src: url("../fonts/icomoon.eot?kcox9g#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?kcox9g") format("truetype"), url("../fonts/icomoon.woff?kcox9g") format("woff"), url("../fonts/icomoon.svg?kcox9g#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?cjk47d");
+  src: url("../fonts/icomoon.eot?cjk47d#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?cjk47d") format("truetype"), url("../fonts/icomoon.woff?cjk47d") format("woff"), url("../fonts/icomoon.svg?cjk47d#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -215,6 +215,14 @@ textarea {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cart:before {
+  content: "\e93a";
+}
+
+.icon-map:before {
+  content: "\e94b";
+}
+
 .icon-clock:before {
   content: "\e94e";
 }
@@ -231,7 +239,7 @@ textarea {
   content: "\e9da";
 }
 
-.icon-cancel-circle:before {
+.icon-cancel:before {
   content: "\ea0d";
 }
 
