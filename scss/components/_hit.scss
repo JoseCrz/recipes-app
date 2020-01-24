@@ -3,9 +3,11 @@
     align-items: center;
     padding: 20px 0;
     cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .2s;
 
     &:hover {
         background: $color__grey;
+        transform: translateY(-2px);
     }
 
     &__image {

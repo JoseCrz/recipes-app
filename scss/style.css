@@ -474,10 +474,14 @@ textarea {
           align-items: center;
   padding: 20px 0;
   cursor: pointer;
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
 }
 
 .c-hit:hover {
   background: #eeeeee;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
 
 .c-hit__image {
