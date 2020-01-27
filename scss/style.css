@@ -351,8 +351,8 @@ textarea {
   text-align: center;
   font-size: 2.5em;
   color: white;
-  -webkit-transform: rotate(-10deg);
-          transform: rotate(-10deg);
+  -webkit-transform: skewY(-6deg);
+          transform: skewY(-6deg);
 }
 
 .c-recipe__cover {
@@ -395,8 +395,8 @@ textarea {
   font-size: 1.5em;
   text-transform: uppercase;
   color: #F37335;
-  -webkit-transform: rotate(-4deg);
-          transform: rotate(-4deg);
+  -webkit-transform: skewY(-6deg);
+          transform: skewY(-6deg);
   margin: 40px 0;
 }
 
